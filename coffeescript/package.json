@@ -1,0 +1,14 @@
+{
+  "name": "pomodoro-tracker",
+  "version": "1.0.0",
+  "description": "Pomodoro timer built with CoffeeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "coffee --compile --output dist/ src/",
+    "watch": "coffee --watch --compile --output dist/ src/",
+    "serve": "python -m http.server 8000"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  }
+}
